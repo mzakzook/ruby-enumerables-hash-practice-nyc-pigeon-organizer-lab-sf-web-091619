@@ -8,18 +8,18 @@ def nyc_pigeon_organizer(data)
          pigeon_list[name][keys] = []
          pigeon_list[name][keys] << value.to_s
        else
-        # if pigeon_list[name][keys]
-        #   pigeon_list[name][keys] << value.to_s
-        # else
+        if pigeon_list[name][keys]
+          pigeon_list[name][keys] << value.to_s
+        else
           pigeon_list[name][keys] = []
           pigeon_list[name][keys] << value.to_s
-        # end
+        end
        end
      end
    end
   end
-  
-puts pigeon_list          
+
+pigeon_list          
 end
 
 
