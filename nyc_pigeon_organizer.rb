@@ -6,15 +6,13 @@ def nyc_pigeon_organizer(data)
        if !pigeon_list[name]
          pigeon_list[name] = {}
          pigeon_list[name][keys] = []
+         pigeon_list[name][keys] << 
        else
          pigeon_list[name][keys] = []
        end
      end
    end
   end
-  pigeon_list.each do |name, values|
-    values.each do |pigeon_values, attrib|
-      data.each do |keys, values|
-        values.each do |pigeon_value, attrib|
+  
           
 end
