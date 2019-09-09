@@ -5,5 +5,6 @@ def nyc_pigeon_organizer(data)
      names.each do |name|
        if !pigeon_list[name]
          pigeon_list[name] = {}
-         pigeon_list[name][keys]
+         pigeon_list[name][keys] = []
+         
 end
