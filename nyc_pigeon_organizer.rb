@@ -9,5 +9,7 @@ def nyc_pigeon_organizer(data)
        else
          pigeon_list[name][keys] = []
        end
-       
+     end
+   end
+  end
 end
