@@ -4,5 +4,5 @@ def nyc_pigeon_organizer(data)
    values.each do |value, names|
      names.each do |name|
        if !pigeon_list[name]
-         
+         pigeon_list[name] = {}
 end
